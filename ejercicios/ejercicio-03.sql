@@ -10,7 +10,7 @@ FROM category
 INNER JOIN film_category ON category.category_id = film_category.category_id
 GROUP BY category.name;
 
-3. Determinar cuántos clientes tiene cada tienda.
+/* 3. Determinar cuántos clientes tiene cada tienda. */
 
 SELECT store_id, COUNT(customer_id) as total_clientes
 FROM customer
