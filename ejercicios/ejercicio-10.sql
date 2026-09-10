@@ -7,3 +7,5 @@
 
 INSERT INTO customer (store_id, first_name, last_name, email, address_id, active, create_date)
 VALUES (1, 'SANTINO', 'BONAVIA', 'santino.bonavia@email.com', 1, 1, NOW());
+
+/* FALTA GIT PUSH */
